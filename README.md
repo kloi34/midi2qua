@@ -1,2 +1,2 @@
 # midi2qua
-Jank Python program by Jank Python programmer
+Noob Python program by Noob Python programmer
