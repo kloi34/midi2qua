@@ -1,9 +1,14 @@
 # midi2qua
-Noob Python program by Noob Python programmer
+Converts MIDI into a text file whose contents can be copied into a .qua file. This helps make maps for [Quaver](https://github.com/Quaver), the ultimate community-driven and open-source competitive rhythm game.
 
-Convert MIDI files to text that you can copy and paste into a .qua file. This helps make maps for [Quaver](https://github.com/Quaver), the ultimate community-driven and open-source competitive rhythm game. 
+This program was created primarily for converting MIDIs of live piano performances for 7 key maps. However, the program should still work with any kind of MIDI file. Also 4 key is supported (albeit poorly)
 
-This program works but is very primative and hacky (as of 16 Nov 2021). I think you need to [Install Mido](https://mido.readthedocs.io/en/latest/installing.html) in whatever environment you are using this program in order for it to run. Maybe also need to [Installl tkinter](https://tkdocs.com/tutorial/install.html) depending on the Python distrubution you use.
+## How to use this program
+* Get Python (3.6+?)
+* Install [Mido](https://mido.readthedocs.io/en/latest/) wherever this program is downloaded to with `pip install mido`
+* Run the program (somehow)
+
+After using the program, you should get a .txt file in the same location as the program. Open the text file and copy the HitObject text into the desired .qua file
 
 ## Examples of Quaver maps made with this program
 - [Glinka/Balakirev - The Lark](https://quavergame.com/mapset/9136)
@@ -19,8 +24,8 @@ MP3s for most of the performances: https://www.kaggle.com/jackvial/themaestrodat
 ### Piano performances by 小栗克裕 (Katsuhiro Oguri)
 MIDIs + MP3s: (JP) http://www.bc9.jp/~oguri/index1.html or (EN) http://www.bc9.jp/~oguri/indexe.html
 
-## Future Goals to make this program less noob:
-1. Refactor code; Create functions that encapsulate single actions for better readablility and better maintainability
-2. Improve tkinter UI?
-3. Add more options to conversion (ex. automatically leaving out low velocity (i.e. very quiet, inaudible notes) midi notes)
-4. Explain better how to start using this program in this readme
+## Goals to improve this program
+1. Implement option to discard extra notes
+2. Implement mapping to different columns
+3. Improve UI
+
