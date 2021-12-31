@@ -6,9 +6,9 @@ This program was created primarily for converting MIDIs of live piano performanc
 ## How to use this program
 * Get Python (3.6+)
 * Install [Mido](https://mido.readthedocs.io/en/latest/) wherever this program is downloaded to with `pip install mido`
-* Run the program (somehow)
+* Run the program
 
-You should get a .txt file in the same location as the program after running it. Open the text file and copy + paste the HitObject text into the desired .qua file.
+You should get a .txt file in the same location as the program after running it. Open the text file and copy + paste the HitObject text into an existing .qua file.
 
 For now, you will still have to manually rearrange/shift notes to different columns using a Quaver plugin. Maybe a future version of this program can remedy this step and pre-arrange notes to make it easier. 
 
@@ -22,7 +22,8 @@ For now, you will still have to manually rearrange/shift notes to different colu
 ## Good sources of live piano MIDIs
 ### Minnesota International Piano-e-Competition
 MIDIs: https://piano-e-competition.com/
-MP3s for most MIDIs: https://www.kaggle.com/jackvial/themaestrodatasetv2 (use the .csv or .json to find the mp3 that corresponds to a performance)
+
+MP3s for most MIDIs: https://www.kaggle.com/jackvial/themaestrodatasetv2 (use the .csv or .json to find the mp3 file name that corresponds to a performance)
 ### Personal homepage of 小栗克裕 (Katsuhiro Oguri)
 MIDIs + MP3s: (JP) http://www.bc9.jp/~oguri/index1.html or (EN) http://www.bc9.jp/~oguri/indexe.html
 ### kunstderfuge.com
