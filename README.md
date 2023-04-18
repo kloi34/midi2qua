@@ -1,9 +1,13 @@
 # midi2qua
-Converts MIDI into a text file whose contents can be copied into a .qua file. This helps make maps for [Quaver](https://github.com/Quaver), the ultimate community-driven and open-source competitive rhythm game.
+A program that converts a MIDI file into a text file with hitObject data that can be copied into a .qua file for making maps in [Quaver](https://github.com/Quaver), the ultimate community-driven and open-source competitive rhythm game.
 
-This program was created primarily for converting MIDIs of live piano performances for 7 key maps. However, the program should still work with any kind of MIDI file and also produce 4 key maps if desired.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SxLve_nVwr0tlBcIF47sFrFQb4xJQOZp?usp=sharing)
+
+This program was created primarily for converting MIDIs of live piano performances for 7 key maps. However, the program should still work with any kind of MIDI file and can also output for 4 key maps.
 
 ## How to use this program
+Use the Google Colab version linked above or...
+
 * Get Python (3.6+)
 * Install [Mido](https://mido.readthedocs.io/en/latest/) wherever this program is downloaded to with `pip install mido`
 * Run the program
